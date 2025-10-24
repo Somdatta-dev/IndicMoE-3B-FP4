@@ -1,0 +1,42 @@
+# Documentation (keep only README.md)
+*.md
+!README.md
+
+# Data and checkpoints (large files)
+data/
+checkpoints/
+logs/
+runs/
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Environment and secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Megatron
+Megatron-LM/
+
+# Docker
+.dockerignore

@@ -1,0 +1,19 @@
+# Core ML frameworks
+# torch is pre-installed in nvcr.io/nvidia/pytorch:25.09-py3
+transformers>=4.30.0
+datasets>=2.12.0
+tokenizers>=0.13.0
+sentencepiece>=0.1.99
+
+# Data processing
+langdetect>=1.0.9
+python-dotenv>=1.0.0
+
+# Logging and monitoring
+tensorboard>=2.13.0
+wandb>=0.15.0
+
+# Utilities
+numpy<2.0.0  # Megatron-Core requires <2.0
+pyyaml>=6.0
+tqdm>=4.65.0
